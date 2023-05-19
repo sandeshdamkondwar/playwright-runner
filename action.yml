@@ -1,0 +1,12 @@
+name: 'My GitHub Action'
+description: 'This is an example action'
+inputs:
+  input1:
+    description: 'Input 1'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'mic'
+  color: 'purple'
